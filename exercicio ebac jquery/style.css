@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bebebe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    border: 2px solid #fdfafa;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #0f2753;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #236baa;
+    box-shadow: 2px 2px 5px #dddcdf;
+    border: solid 2px aliceblue;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #174b78;
+}
+
+#clear-tasks {
+    background-color: #dc3545;
+    margin-top: 10px;
+}
+
+#clear-tasks:hover {
+    background-color: #c82333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #f1f1f1;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.line-through span {
+    text-decoration: line-through;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
